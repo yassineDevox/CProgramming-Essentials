@@ -11,9 +11,15 @@ int main(){
 	float f=2.2;
 	//io:input/output
 	printf("\nc=%c\ni=%d\nf=%f",c,i,f);
-	 
-	
+	printf("\n Enter the value of c : ");
+	scanf("%c",&c);
+	printf("\n Enter the value of i : ");
+	scanf("%d",&i);
+	printf("\n Enter the value of f : ");
+	scanf("%f",&f);
+	printf("\nc=%c\ni=%d\nf=%f",c,i,f);
+
 	//how to provide choices ( if/else, switch)
+	
 	return 0;
 }
-
